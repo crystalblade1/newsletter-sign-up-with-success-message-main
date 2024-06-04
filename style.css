@@ -69,7 +69,7 @@ main{
 
 #SuccessForm button:hover{
 
-    background-color: rgb(202, 74, 57);
+    background-image: linear-gradient(#FF6A3A, #FF527B);
   
 }
 
@@ -136,7 +136,7 @@ button{
 
 button:hover{
 
-    background-color: rgb(202, 74, 57);
+    background-image: linear-gradient(#FF6A3A, #FF527B);
   
 }
 
@@ -189,10 +189,13 @@ button:hover{
     }
 
     #SuccessForm{
-        height: 100vh;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 100%;
         width: 100%;
         border-radius: 0;
         padding: 3rem;
+        line-height: 2.5rem;
 
         img{
             margin-top: 4rem;
@@ -201,10 +204,15 @@ button:hover{
             margin-top: 2rem;
         }
 
+        p{
+            font-size: 1.7rem;
+        }
+
         button{
-            margin-top: 10rem;
-            padding: 1.3rem 10rem;
+            font-size: 2rem;
+            padding: 2rem 9rem;
             background-color: rgb(39, 39, 70);
+            
         }
 
     }
