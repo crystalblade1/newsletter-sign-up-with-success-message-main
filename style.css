@@ -25,7 +25,7 @@ body{
 
 }
 
-#wrapper{
+main{
     display: flex;
     justify-content: center;
     padding: 2rem;
@@ -151,7 +151,7 @@ button{
        .img-container img{
         width: 100%;
        }
-    #wrapper{
+    main{
         display: flex;
         align-items: center;
         flex-direction: column;

@@ -5,7 +5,7 @@ function validateEmail(){
     const emailInput = document.getElementById("input-email");
     const message = document.getElementById("message");
     const regex = /^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.com$/;
-    const wrapper = document.getElementById("wrapper");
+    const wrapper = document.querySelector("main");
     const successForm = document.getElementById("SuccessForm");
     
 
