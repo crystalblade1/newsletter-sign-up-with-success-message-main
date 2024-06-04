@@ -27,7 +27,9 @@ function validateEmail(){
 
 function DismissMessage(){
 
+
     const successForm = document.getElementById("SuccessForm");
     successForm.style.display = "none";
+   
 
 }

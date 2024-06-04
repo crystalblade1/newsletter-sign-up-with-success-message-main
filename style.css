@@ -61,10 +61,16 @@ main{
 
 #SuccessForm button{
     padding: 18px 120px;
-    background-color: rgb(224, 101, 101);
+    background-color: rgb(39, 39, 70);
     color: white;
     margin-top: 3rem;
     cursor: pointer;
+}
+
+#SuccessForm button:hover{
+
+    background-color: rgb(202, 74, 57);
+  
 }
 
 .text-container{
@@ -121,11 +127,17 @@ main{
 button{
     padding: 1rem;
     border-radius: 10px;
-    background-color: rgb(223, 92, 88);
+    background-color: rgb(39, 39, 70);
     color: white;
     font-size: 1rem;
     font-weight: 700;
     border: none;
+}
+
+button:hover{
+
+    background-color: rgb(202, 74, 57);
+  
 }
 
 #mobile-img{
@@ -174,6 +186,27 @@ button{
 
     #subscribe{
         padding: 25px;
+    }
+
+    #SuccessForm{
+        height: 100vh;
+        width: 100%;
+        border-radius: 0;
+        padding: 3rem;
+
+        img{
+            margin-top: 4rem;
+        }
+        h2{
+            margin-top: 2rem;
+        }
+
+        button{
+            margin-top: 10rem;
+            padding: 1.3rem 10rem;
+            background-color: rgb(39, 39, 70);
+        }
+
     }
 
 
